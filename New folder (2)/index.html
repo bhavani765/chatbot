@@ -1,0 +1,36 @@
+!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chatbot UI</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="chat-container">
+        <!-- User Message Box -->
+        <div class="user-chat-box">
+            <div class="user-chat-area">
+                <p>Hello, how are you?</p>
+                <img id="userImage" src="user.png" alt="User" width="50">
+            </div>
+        </div>
+
+        <!-- AI Message Box -->
+        <div class="ai-chat-box">
+            <div class="ai-chat-area">
+                <img id="aiImage" src="ai.png" alt="AI" width="50">
+                <p>I'm an AI! How can I help you?</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Input Area -->
+    <div class="prompt-area">
+        <input type="text" placeholder="Type a message...">
+        <button>Send</button>
+    </div>
+
+</body>
+</html>
